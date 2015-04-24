@@ -1629,7 +1629,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            stack = error.stack;
 	          }
 	          if (stack.indexOf('_wrapObject') === -1) {
-	            console && console.warn && console.warn('iterable.length has been deprecated, ' + 'use iterable.size or iterable.count(). ' + 'This warning will become a silent error in a future version. ' + stack);
+	            // console && console.warn && console.warn('iterable.length has been deprecated, ' + 'use iterable.size or iterable.count(). ' + 'This warning will become a silent error in a future version. ' + stack);
 	            return this.size;
 	          }
 	        }
@@ -12081,7 +12081,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    root._ = _;
 	  }
 	}.call(this));
-	
+
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)(module), (function() { return this; }())))
 
 /***/ },
